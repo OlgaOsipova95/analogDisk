@@ -19,8 +19,6 @@
 		94092D252ADFA0FC00CF5DA0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D242ADFA0FC00CF5DA0 /* Data.swift */; };
 		94092D292ADFA44100CF5DA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94092D2B2ADFA44100CF5DA0 /* Localizable.strings */; };
 		94092D2E2ADFA55F00CF5DA0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D2D2ADFA55F00CF5DA0 /* PageViewController.swift */; };
-		94092D352AE0145400CF5DA0 /* PagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D332AE0145400CF5DA0 /* PagePresenter.swift */; };
-		94092D362AE0145400CF5DA0 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D342AE0145400CF5DA0 /* PageModel.swift */; };
 		94092D3B2AE1071600CF5DA0 /* AutorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D3A2AE1071600CF5DA0 /* AutorizationViewController.swift */; };
 		94092D3D2AE1179C00CF5DA0 /* SettingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D3C2AE1179C00CF5DA0 /* SettingStorage.swift */; };
 		94092D402AE1194C00CF5DA0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94092D3F2AE1194C00CF5DA0 /* LoginViewController.swift */; };
@@ -43,6 +41,8 @@
 		940F77112AE3DB77001A1F1A /* DocumentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F77102AE3DB77001A1F1A /* DocumentDetailViewController.swift */; };
 		940F77132AE3DB86001A1F1A /* DocumentDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F77122AE3DB86001A1F1A /* DocumentDetailPresenter.swift */; };
 		940F77152AE3E6B0001A1F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F77142AE3E6B0001A1F1A /* Main.storyboard */; };
+		949FA2312AE64BBF0002C054 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949FA2302AE64BBF0002C054 /* PageModel.swift */; };
+		949FA2322AE64BBF0002C054 /* PagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949FA22F2AE64BBF0002C054 /* PagePresenter.swift */; };
 		94BDF18D2AE1717B00B8AACD /* LastFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BDF18C2AE1717B00B8AACD /* LastFilesViewController.swift */; };
 		94BDF18F2AE171AA00B8AACD /* LastFilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BDF18E2AE171AA00B8AACD /* LastFilesPresenter.swift */; };
 		94BDF1912AE171C400B8AACD /* LastFilesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BDF1902AE171C400B8AACD /* LastFilesModel.swift */; };
@@ -68,8 +68,6 @@
 		94092D2A2ADFA44100CF5DA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94092D2C2ADFA44300CF5DA0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94092D2D2ADFA55F00CF5DA0 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		94092D332AE0145400CF5DA0 /* PagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagePresenter.swift; path = ../../../../../../../../.Trash/PagePresenter.swift; sourceTree = "<group>"; };
-		94092D342AE0145400CF5DA0 /* PageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageModel.swift; path = ../../../../../../../../.Trash/PageModel.swift; sourceTree = "<group>"; };
 		94092D3A2AE1071600CF5DA0 /* AutorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewController.swift; sourceTree = "<group>"; };
 		94092D3C2AE1179C00CF5DA0 /* SettingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStorage.swift; sourceTree = "<group>"; };
 		94092D3F2AE1194C00CF5DA0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +90,8 @@
 		940F77102AE3DB77001A1F1A /* DocumentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailViewController.swift; sourceTree = "<group>"; };
 		940F77122AE3DB86001A1F1A /* DocumentDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailPresenter.swift; sourceTree = "<group>"; };
 		940F77142AE3E6B0001A1F1A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		949FA22F2AE64BBF0002C054 /* PagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PagePresenter.swift; path = /Users/dmitrij_Mac/Documents/PROJECTS/Swift_learn/pro/analogDisk/AnalogDisk/AnalogOfDisk/OnboardingScreen/DataForOnboarding/PagePresenter.swift; sourceTree = "<absolute>"; };
+		949FA2302AE64BBF0002C054 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageModel.swift; path = /Users/dmitrij_Mac/Documents/PROJECTS/Swift_learn/pro/analogDisk/AnalogDisk/AnalogOfDisk/OnboardingScreen/DataForOnboarding/PageModel.swift; sourceTree = "<absolute>"; };
 		94BDF18C2AE1717B00B8AACD /* LastFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesViewController.swift; sourceTree = "<group>"; };
 		94BDF18E2AE171AA00B8AACD /* LastFilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesPresenter.swift; sourceTree = "<group>"; };
 		94BDF1902AE171C400B8AACD /* LastFilesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesModel.swift; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 			children = (
 				94092D242ADFA0FC00CF5DA0 /* Data.swift */,
 				94092D2D2ADFA55F00CF5DA0 /* PageViewController.swift */,
-				94092D332AE0145400CF5DA0 /* PagePresenter.swift */,
-				94092D342AE0145400CF5DA0 /* PageModel.swift */,
+				949FA2302AE64BBF0002C054 /* PageModel.swift */,
+				949FA22F2AE64BBF0002C054 /* PagePresenter.swift */,
 			);
 			path = DataForOnboarding;
 			sourceTree = "<group>";
@@ -421,8 +421,8 @@
 				940F770E2AE3D3A0001A1F1A /* PDFDetailPresenter.swift in Sources */,
 				940F77042AE3AD2B001A1F1A /* DataProvider.swift in Sources */,
 				940F76F42AE29C41001A1F1A /* DetailInfoModel.swift in Sources */,
-				94092D362AE0145400CF5DA0 /* PageModel.swift in Sources */,
 				94092D052ADF9F9E00CF5DA0 /* AppDelegate.swift in Sources */,
+				949FA2312AE64BBF0002C054 /* PageModel.swift in Sources */,
 				94092D422AE119DD00CF5DA0 /* LoginPresenter.swift in Sources */,
 				94092D1D2ADF9FD800CF5DA0 /* OnboardingViewController.swift in Sources */,
 				94092D3B2AE1071600CF5DA0 /* AutorizationViewController.swift in Sources */,
@@ -438,7 +438,6 @@
 				940F770C2AE3D338001A1F1A /* PDFDetailViewController.swift in Sources */,
 				94092D462AE11D2B00CF5DA0 /* SessionStorage.swift in Sources */,
 				940F76E02AE27B92001A1F1A /* DataBase.xcdatamodeld in Sources */,
-				94092D352AE0145400CF5DA0 /* PagePresenter.swift in Sources */,
 				94BDF1972AE17A3C00B8AACD /* CoreDataService.swift in Sources */,
 				940F76E42AE27CD0001A1F1A /* LastFiles+CoreDataProperties.swift in Sources */,
 				94BDF1912AE171C400B8AACD /* LastFilesModel.swift in Sources */,
@@ -453,6 +452,7 @@
 				94BDF1932AE1729300B8AACD /* TableViewCell.swift in Sources */,
 				94092D0F2ADF9F9E00CF5DA0 /* AnalogOfDisk.xcdatamodeld in Sources */,
 				94092D402AE1194C00CF5DA0 /* LoginViewController.swift in Sources */,
+				949FA2322AE64BBF0002C054 /* PagePresenter.swift in Sources */,
 				94BDF18D2AE1717B00B8AACD /* LastFilesViewController.swift in Sources */,
 				94092D252ADFA0FC00CF5DA0 /* Data.swift in Sources */,
 			);
