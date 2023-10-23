@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  AnalogOfDisk
+
+  Created by Ольга on 18.10.2023.
+  
+*/
+
+// Text for pages of onboarding
+onboarding.page_1 = "Now all your documents are in one place";
+onboarding.page_2 = "Access files without internet";
+onboarding.page_3 = "Share your files with others";
+
+// Button "Next"
+onboarding.next_button = "Next";
+
+// Button "Login"
+autorization.login_button = "Login";
+
+list_vc.title = "Recent";
+
+alertController.trash_image = "This image will be deleted";
+alertController.trash_image.button = "Delete";
+alertController.trash_image.cancel = "Cancel";
+
+alertController.share_image.title = "Share";
+alertController.share_image.button_File = "Share file";
+alertController.share_image.button_URL = "Share link";
+
+rename_vc.title = "Rename";

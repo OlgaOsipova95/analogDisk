@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  AnalogOfDisk
+
+  Created by Ольга on 18.10.2023.
+  
+*/
+
+// Текст для страниц онбординга
+onboarding.page_1 = "Теперь все ваши документы в одном месте";
+onboarding.page_2 = "Доступ к файлам без интернета";
+onboarding.page_3 = "Делитесь вашими файлами с другими";
+
+// Кнопка "Далее"
+onboarding.next_button = "Далее";
+
+// Кнопка "Войти"
+autorization.login_button = "Войти";
+
+list_vc.title = "Последние";
+
+alertController.trash_image.title = "Данное изображение будет удалено";
+alertController.trash_image.button = "Удалить";
+alertController.trash_image.cancel = "Отмена";
+
+alertController.share_image.title = "Поделиться";
+alertController.share_image.button_File = "Поделиться файлом";
+alertController.share_image.button_URL = "Поделиться ссылкой";
+
+rename_vc.title = "Переименовать";
+
